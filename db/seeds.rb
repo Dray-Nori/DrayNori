@@ -219,9 +219,234 @@
 #    story_id: 1
 #   },
 #  ])
-Option.create ([
-{
 
+text change page_id next_page_id
+Option.create ([
+{page_id: 1,
+ next_page_id: 2,
+ text:'if (search moon
+ using moon rover)
+ {use 30 minutes of
+ air}'
+ change: ''
+},
+{page_id: 1,
+ next_page_id: 3,
+ text:'if (use the space
+ station radio to call
+ other astronauts)
+ {use 5 minutes of
+ air}'
+ change: ''
+},
+{page_id: 1,
+ next_page_id: 4,
+ text:'if (climb on top of
+ space station to
+ search for astronauts)
+ {use 15 minutes of
+ air}'
+ change: ''
+},
+{page_id: 2,
+ next_page_id: 5,
+ text:'for(tools in toolbelt)
+ {nd all tire patches}
+ then {patch the
+ tire}'
+ change: ''
+},
+{page_id: 2,
+ next_page_id: 6,
+ text:'for(items in backpack)
+ {nd portable
+ radio} then {radio
+ for help}'
+ change: ''
+},
+{page_id: 3,
+ next_page_id: 6,
+ text:'for(tools in toolbelt)
+ {nd all tire patches}
+ then {patch the
+ tire}'
+ change: ''
+},
+{page_id: 3,
+ next_page_id: 7,
+ text:'for(items in backpack)
+ {nd small wires}
+ then {pick lock on
+ door}'
+ change: ''
+},
+{page_id: 4,
+ next_page_id: 7,
+ text:'for(items in backpack)
+ {nd ashlight}
+ then {signal with
+ ashlight}'
+ change: ''
+},
+{page_id: 4,
+ next_page_id: 8,
+ text:'for(items in backpack)
+ {nd are gun}
+ then {send a are
+ from roof of moon
+ base}'
+ change: ''
+},
+{page_id: 5,
+ next_page_id: 9,
+ text:'do {
+ run away as fast
+ as you can;
+ } while (your air is
+ > 15);'
+ change: ''
+},
+{page_id: 5,
+ next_page_id: 9,
+ text:'do {
+ back away slowly;
+ } while (while the
+ alien stands still
+ and air is > 10);'
+ change: ''
+},
+{page_id: 6,
+ next_page_id: 9,
+ text:'do {
+ drive the moon
+ rover anway;
+ } while ( air is > 15)'
+ change: ''
+},
+{page_id: 6,
+ next_page_id: 10,
+ text:'do {
+ walk on foot to
+ search;
+ } while (your air is
+ > 25);'
+ change: ''
+},
+{page_id: 7,
+ next_page_id: 10,
+ text:'do {
+ back away slowly,
+ hoping it doesn’t
+ see you;
+ } while (while your
+ air is > 20);'
+ change: ''
+},
+{page_id: 7,
+ next_page_id: 11,
+ text:'do {
+ stand still so it
+ doesn’t see you;
+ } while (while your
+ air is > 30);'
+ change: ''
+},
+{page_id: 8,
+ next_page_id: 11,
+ text:'do {
+ wave at the
+ gure to get it’s
+ attention;
+ } while (while your
+ air is > 25);'
+ change: ''
+},
+{page_id: 8,
+ next_page_id: 11,
+ text:'do {
+ stand still so it
+ doesn’t see you;
+ } while (while your
+ air is > 30);'
+ change: ''
+},
+{page_id: 9,
+ next_page_id: 12,
+ text:'do {
+ stand still so it
+ doesn’t see you;
+ } while (while your
+ air is > 30);'
+ change: ''
+},
+{page_id: 9,
+ next_page_id: 12,
+ text:'if (search for
+ astronauts)
+ {use 8 minutes of
+ air}'
+ change: ''
+},
+{page_id: 10,
+ next_page_id: 12,
+ text:'if (nd more air)
+ {use 10 minutes of
+ air}'
+ change: ''
+},
+{page_id: 10,
+ next_page_id: 12,
+ text:'if (search for fellow
+ astronauts)
+ {use 20 minutes of
+ air}'
+ change: ''
+},
+{page_id: 11,
+ next_page_id: 12,
+ text:'if (chase mysterious
+ creature)
+ {use 25 minutes of
+ air}'
+ change: ''
+},
+{page_id: 11,
+ next_page_id: 12,
+ text:'if (chase mysterious
+ creature)
+ {use 20 minutes of
+ air}'
+ change: ''
+},
+{page_id: 12,
+ next_page_id: 13,
+ text:'broken rover: {
+ speed: 10mph,
+ reliability: average,
+ amount of air
+ needed: 10 min.
+ }'
+ change: ''
+},
+{page_id: 12,
+ next_page_id: 14,
+ text:'jetpack: {
+ speed: 15mph,
+ reliability: low,
+ amount of air
+ needed: 5 min.
+ }'
+ change: ''
+},
+{page_id: 12,
+ next_page_id: 15,
+ text:'running: {
+ speed: 5mph,
+ reliability: high,
+ amount of air
+ needed: 15 min.
+ }'
+ change: ''
 },
 
 ])
