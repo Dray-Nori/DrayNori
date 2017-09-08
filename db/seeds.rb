@@ -220,15 +220,14 @@
 #   },
 #  ])
 
-text change page_id next_page_id
 Option.create ([
 {page_id: 1,
  next_page_id: 2,
  text:'if (search moon
  using moon rover)
  {use 30 minutes of
- air}'
- change: ''
+ air}',
+ change:''
 },
 {page_id: 1,
  next_page_id: 3,
@@ -236,8 +235,8 @@ Option.create ([
  station radio to call
  other astronauts)
  {use 5 minutes of
- air}'
- change: ''
+ air}',
+ change:''
 },
 {page_id: 1,
  next_page_id: 4,
@@ -245,48 +244,48 @@ Option.create ([
  space station to
  search for astronauts)
  {use 15 minutes of
- air}'
- change: ''
+ air}',
+ change:''
 },
 {page_id: 2,
  next_page_id: 5,
  text:'for(tools in toolbelt)
  {nd all tire patches}
  then {patch the
- tire}'
- change: ''
+ tire}',
+ change:''
 },
 {page_id: 2,
  next_page_id: 6,
  text:'for(items in backpack)
  {nd portable
  radio} then {radio
- for help}'
- change: ''
+ for help}',
+ change:''
 },
 {page_id: 3,
  next_page_id: 6,
  text:'for(tools in toolbelt)
  {nd all tire patches}
  then {patch the
- tire}'
- change: ''
+ tire}',
+ change:''
 },
 {page_id: 3,
  next_page_id: 7,
  text:'for(items in backpack)
  {nd small wires}
  then {pick lock on
- door}'
- change: ''
+ door}',
+ change:''
 },
 {page_id: 4,
  next_page_id: 7,
  text:'for(items in backpack)
  {nd ashlight}
  then {signal with
- ashlight}'
- change: ''
+ ashlight}',
+ change:''
 },
 {page_id: 4,
  next_page_id: 8,
@@ -294,8 +293,8 @@ Option.create ([
  {nd are gun}
  then {send a are
  from roof of moon
- base}'
- change: ''
+ base}',
+ change:''
 },
 {page_id: 5,
  next_page_id: 9,
@@ -303,8 +302,8 @@ Option.create ([
  run away as fast
  as you can;
  } while (your air is
- > 15);'
- change: ''
+ > 15);',
+ change:''
 },
 {page_id: 5,
  next_page_id: 9,
@@ -312,16 +311,16 @@ Option.create ([
  back away slowly;
  } while (while the
  alien stands still
- and air is > 10);'
- change: ''
+ and air is > 10);',
+ change:''
 },
 {page_id: 6,
  next_page_id: 9,
  text:'do {
  drive the moon
  rover anway;
- } while ( air is > 15)'
- change: ''
+ } while ( air is > 15)',
+ change:''
 },
 {page_id: 6,
  next_page_id: 10,
@@ -329,8 +328,8 @@ Option.create ([
  walk on foot to
  search;
  } while (your air is
- > 25);'
- change: ''
+ > 25);',
+ change:''
 },
 {page_id: 7,
  next_page_id: 10,
@@ -339,8 +338,8 @@ Option.create ([
  hoping it doesn’t
  see you;
  } while (while your
- air is > 20);'
- change: ''
+ air is > 20);',
+ change:''
 },
 {page_id: 7,
  next_page_id: 11,
@@ -348,8 +347,8 @@ Option.create ([
  stand still so it
  doesn’t see you;
  } while (while your
- air is > 30);'
- change: ''
+ air is > 30);',
+ change:''
 },
 {page_id: 8,
  next_page_id: 11,
@@ -358,8 +357,8 @@ Option.create ([
  gure to get it’s
  attention;
  } while (while your
- air is > 25);'
- change: ''
+ air is > 25);',
+ change:''
 },
 {page_id: 8,
  next_page_id: 11,
@@ -367,8 +366,8 @@ Option.create ([
  stand still so it
  doesn’t see you;
  } while (while your
- air is > 30);'
- change: ''
+ air is > 30);',
+ change:''
 },
 {page_id: 9,
  next_page_id: 12,
@@ -376,47 +375,47 @@ Option.create ([
  stand still so it
  doesn’t see you;
  } while (while your
- air is > 30);'
- change: ''
+ air is > 30);',
+ change:''
 },
 {page_id: 9,
  next_page_id: 12,
  text:'if (search for
  astronauts)
  {use 8 minutes of
- air}'
- change: ''
+ air}',
+ change:''
 },
 {page_id: 10,
  next_page_id: 12,
  text:'if (nd more air)
  {use 10 minutes of
- air}'
- change: ''
+ air}',
+ change:''
 },
 {page_id: 10,
  next_page_id: 12,
  text:'if (search for fellow
  astronauts)
  {use 20 minutes of
- air}'
- change: ''
+ air}',
+ change:''
 },
 {page_id: 11,
  next_page_id: 12,
  text:'if (chase mysterious
  creature)
  {use 25 minutes of
- air}'
- change: ''
+ air}',
+ change:''
 },
 {page_id: 11,
  next_page_id: 12,
  text:'if (chase mysterious
  creature)
  {use 20 minutes of
- air}'
- change: ''
+ air}',
+ change:''
 },
 {page_id: 12,
  next_page_id: 13,
@@ -425,8 +424,8 @@ Option.create ([
  reliability: average,
  amount of air
  needed: 10 min.
- }'
- change: ''
+ }',
+ change:''
 },
 {page_id: 12,
  next_page_id: 14,
@@ -435,8 +434,8 @@ Option.create ([
  reliability: low,
  amount of air
  needed: 5 min.
- }'
- change: ''
+ }',
+ change:''
 },
 {page_id: 12,
  next_page_id: 15,
@@ -445,8 +444,8 @@ Option.create ([
  reliability: high,
  amount of air
  needed: 15 min.
- }'
- change: ''
+ }',
+ change:''
 },
 
 ])
