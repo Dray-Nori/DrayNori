@@ -1,4 +1,3 @@
-=begin
 
 Language.create(
  name: 'JavaScript'
@@ -457,5 +456,3 @@ Option.create ([
 },
 
 ])
-
-=end
