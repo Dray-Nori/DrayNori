@@ -1,2 +1,2 @@
-class OptionsController < ApplicationController
+class V1::OptionsController < ApplicationController
 end
