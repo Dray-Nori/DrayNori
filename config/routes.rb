@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   devise_for :users
  # namespace :v1 do
 
+  resources :contacts
   resources :options
   resources :pages
   resources :stories
@@ -14,7 +15,7 @@ Rails.application.routes.draw do
   end
 
   resources :pages do
-   resources :options 
+   resources :options
   end
  # end
 end
