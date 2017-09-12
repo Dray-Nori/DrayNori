@@ -10,7 +10,7 @@ class Contact < ActiveRecord::Migration[5.1]
     t.string :address
     t.boolean :teacher
 
-    t.timestamps 
+    t.timestamps
 
    end
   end

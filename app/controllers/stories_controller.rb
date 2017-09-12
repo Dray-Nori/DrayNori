@@ -3,14 +3,14 @@ class StoriesController < ApplicationController
  def index
   @stories = Story.all
   # p @stories
-  render json: @stories, status: :ok
+  render :index, status: :ok
  end
 
  def create
   @stories = Story.new(story_params)
 
   @storty.save
-  render json: @story, status: :ok
+  render :create, status: :created
  end
 
  def destroy

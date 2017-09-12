@@ -1,14 +1,19 @@
 class ContactsController < ApplicationController
  def index
   @contacts = Contact.all
-  render json: @contacts, status: :ok
+  render :index, status: :ok
+ end
+
+ def show
+  @contact = Contact.where(id: params[:id])
+  render :show, status: :ok
  end
 
  def create
   @contact = Contact.new(contact_params)
 
   @contact.save
-  render json: @contact, status: :ok
+  render :show, status: :created
  end
 
  def destroy
@@ -24,6 +29,7 @@ class ContactsController < ApplicationController
    private
 
     def contact_params
-     param.require(:contact).permit(:first_name, :last_name, :email, :username )
+     params.permit(:first_name, :last_name, :email, :username, :phone, :address, :teacher )
+     # .require(:contact)
     end
 end
